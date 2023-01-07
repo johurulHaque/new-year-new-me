@@ -1,0 +1,220 @@
+/* universal style */
+*{
+    margin: 0;
+    font-family: 'Work Sans', sans-serif;
+}
+
+/* header banner style */
+.banner{
+    height:680px;
+    background-image: url('../assets/images/banner/banner3.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+    position: relative;
+}
+.banner .banner-content{
+    width: 460px;   
+    font-size: 18px;
+    color: #FFFFFF;
+    text-align: right;
+    position:absolute;
+    top: 200px;
+    right: 190px;
+}
+.banner .banner-content h1{
+    font-size: 55px;
+    font-weight: 700;
+}
+.banner .banner-content p{
+    font-weight: 400;
+    font-size: 16px;
+    margin-top: 25px;
+}
+.banner .banner-content button{
+    font-weight: 600;
+    font-size: 20px;
+    color:#005FAC;
+    margin-top: 15px;
+    height: 48px;
+    width: 128px;
+    background: #FFFFFF;
+    border-radius: 5px;
+    border: 0;
+}
+/* about me section */
+.about-me{    
+    padding: 120px 100px;
+    text-align: center;
+}
+.section-title{
+    font-weight: 700;
+    font-size: 35px;
+    text-align: center;
+    color: #181818;
+}
+.section-description{
+    color: #757575;
+    font-size: 18px;
+}
+.about-me .about-info-container{
+    display: flex;
+    justify-content: space-around;
+}
+
+.about-me .info-title{
+    font-weight: 400;
+    font-size: 20px;
+    color: #757575;
+}
+.about-me .info-description{    
+    font-weight: 700;
+    font-size: 20px;    
+}
+/* section failures*/
+.failures{
+    width: 1094px;
+    margin-top:50px;
+    margin-left: 150px;
+    display: flex;
+    align-items: center;
+}
+.failures h1{
+    width: 280px;
+    font-size: 40px;
+    font-weight: 700;
+}
+.failures p{
+    color: #444343;
+    font-size: 16px;
+    margin: 23px 0;
+}
+.failures ul li{
+    list-style: none;
+    color: #444343;
+    font-size: 16px;    
+}
+.failures ul li:before{
+    color: rgb(22, 210, 91);
+    font-size: 20px;
+    content: '✓';
+}
+
+/* section My plan style*/
+.my-plans{
+    width: 1150px;
+    margin-left: 150px;
+    text-align: center;
+    margin-top: 50px;
+}
+.my-plans h2{
+    font-weight: 700;
+    font-size: 40px;
+    color: #151414;
+}
+.my-plans .plans{
+    display: flex;
+    justify-content:space-between;
+}
+.plans h3{
+    font-weight: 700;
+    font-size: 30px;
+    color: #151414;
+}
+.plans p{
+    font-size: 25px;
+    font-weight: 500;
+    color: #737272;
+}
+
+/* main  section banner style*/
+.main-banner{
+    background: linear-gradient(135deg, rgb(71, 106, 188) 60%, rgb(23, 189, 189));
+    background-repeat: no-repeat;
+    width: 1140px;
+    height: 300px;   
+    margin-left:140px;
+    margin-top: 130px;
+    background-size: contain;
+
+}
+.main-banner-content h3{
+    font-weight: 700;
+    font-size: 40px;    
+    color: #FFFFFF;
+    width: 400px;
+}
+.main-banner .main-banner-content{
+    padding-top:50px ;
+    padding-left: 60px;
+}
+.main-banner-content button{
+    font-weight: 600;
+    font-size: 20px;
+    color:#005FAC;
+    margin-top: 15px;
+    height: 48px;
+    width: 128px;
+    background: #FFFFFF;
+    border-radius: 5px;
+    border: 0;
+}
+/* contact section */
+.contact{
+    height: 500px;
+    width: 100%;
+    background-color: #000;
+    color:#FFFFFF;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 120px;
+}
+.contact-content h3{
+    font-weight: 700;
+    font-size: 45px;
+    color: #F8F8F8;
+}
+.contact-content p{
+    font-size: 16px;
+    margin: 20px 0 ;
+}
+.contact-content{
+    height: 320px;
+    width: 480px;
+    margin-left: 230px;
+    margin-top:130px;
+}
+.footer-icon{
+   width: 140px;
+   display: flex;
+   justify-content: space-between;
+}
+.footer-icon img{
+    width: 40px;
+}
+.subscribe{
+    height: 320px;
+    width: 280px;
+    margin-right: 130px;
+    margin-top:130px;
+}
+.subscribe h4{
+    font-weight: 600;
+    font-size: 25px;
+}
+.subscribe input[type="email"]{
+    background: #151414;
+    color: #F3F3F3;
+    padding: 10px 5px;
+    display: block;
+    border: 1px solid rgb(142, 140, 140);
+    border-radius: 3px;
+    margin-top: 15px;
+    margin-bottom: 10px;
+    
+}
+.subscribe input[type="submit"]{
+    background-color:#005FAC ;
+    color: #F3F3F3;
+    padding: 10px 16px;
+    border-radius: 5px;
+}
